@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/iflytek/speech/setting/IatSettings.java=UTF-8
+encoding//src/com/iflytek/speech/util/JsonParser.java=UTF-8
+encoding//src/com/iflytek/speech/util/SettingTextWatcher.java=UTF-8
+encoding//src/com/iflytek/speech/util/XmlParser.java=UTF-8
+encoding//src/com/interaction/activity/MainActivity.java=UTF-8
+encoding//src/com/interaction/data/DataCalaulate.java=UTF-8
+encoding//src/com/interaction/data/DataStore.java=UTF-8
+encoding//src/com/interaction/vi/VoiceInteraction.java=UTF-8

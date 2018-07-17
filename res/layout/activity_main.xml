@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.interaction.activity.MainActivity" >
+    
+    
+<!-- title -->
+    <RelativeLayout 
+        android:id="@+id/area_title"
+		android:layout_width="fill_parent"
+        android:layout_height="99dp" 
+        android:layout_alignParentTop="true"
+        android:background="@color/red_normal"
+        >
+        
+    	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+        
+        	android:text="@string/title"
+        	android:textColor="@color/white"
+        	android:textSize="25sp"
+        
+        />        
+    </RelativeLayout>
+<!-- title end -->
+
+
+	<com.interaction.view.ImageOperationView
+	    android:id="@+id/imageview_display"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    
+	    android:layout_below="@+id/area_title"
+	    android:layout_above="@+id/area_select"
+	    />
+
+	<RadioGroup 
+	    android:id="@+id/area_select"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true">
+	    
+	    <RadioButton 
+	        android:id="@+id/select_touch"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        
+	        android:text="@string/select_touch"
+	        android:textSize="20sp"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        
+	        android:layout_weight="1"
+	        android:checked="true"
+	        android:button="@null"
+	        android:background="@drawable/selecter_button"  
+	        />
+	    
+	    <RadioButton 
+	        android:id="@+id/select_speak"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        
+	        android:text="@string/select_speak"
+	        android:textSize="20sp"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        
+	        android:layout_weight="1"
+	        android:button="@null"
+	        android:background="@drawable/selecter_button"  
+	        />
+	    
+	    <RadioButton 
+	        android:id="@+id/select_sensor"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+	        
+	        android:text="@string/select_sensor"
+	        android:textSize="20sp"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        
+	        android:layout_weight="1"
+	        android:button="@null"
+	        android:background="@drawable/selecter_button"  
+	        />
+	    
+	</RadioGroup>
+ 
+    
+
+
+
+</RelativeLayout>
